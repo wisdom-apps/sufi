@@ -11,6 +11,8 @@ Start in browser
 
 Goto `www` folder and start `index.html`. Click on message box for next random message.
 
+Demo: http://wisdom-apps.github.io/sufi/index.html
+
 
 Create for Android
 ==================
