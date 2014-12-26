@@ -3,8 +3,10 @@ About
 
 Application for book: Inayat Khan "Bowl of Saki".
 
-`www` - html/css/js application for Cordova.
-`data` - files for text (generate `info.en.js` from `en.txt`)
+* `www` - html/css/js application for Cordova.
+* `data` - files for text (generate `info.en.js` from `en.txt`)
+
+[![Get it on Google Play](https://developer.android.com/images/brand/en_generic_rgb_wo_45.png)](https://play.google.com/store/apps/details?id=org.wisdomapps.sufi)
 
 Start in browser
 ================
@@ -12,11 +14,6 @@ Start in browser
 Goto `www` folder and start `index.html`. Click on message box for next random message.
 
 Demo: http://wisdom-apps.github.io/sufi/index.html
-
-Demo on Android
-===============
-
-[![Get it on Google Play](https://developer.android.com/images/brand/en_generic_rgb_wo_45.png)](https://play.google.com/store/apps/details?id=org.wisdomapps.sufi)
 
 Create for Android
 ==================
