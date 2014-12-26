@@ -13,6 +13,10 @@ Goto `www` folder and start `index.html`. Click on message box for next random m
 
 Demo: http://wisdom-apps.github.io/sufi/index.html
 
+Demo on Android
+===============
+
+[![Get it on Google Play](https://developer.android.com/images/brand/en_generic_rgb_wo_45.png)](https://play.google.com/store/apps/details?id=org.wisdomapps.sufi)
 
 Create for Android
 ==================
