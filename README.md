@@ -56,19 +56,11 @@ Configure Cordova
 
 Connect to ssh to box, then:
 
-`cordova create sufi org.wisdomapps.sufi WisdomSufi`
-               
-`rm config.xml`
-
-`ln -s /vagrant/sufi/config.xml config.xml`
-
-`ln -s /vagrant/sufi/res res`
-
 
 
 ```bash
 $ cd /home/vagrant
-$ cordova create sufi
+$ cordova create sufi org.wisdomapps.sufi WisdomSufi
 $ cd sufi
 $ cordova platform add android
 ```
@@ -82,6 +74,14 @@ Create symlink to www folder (on host machine):
 
 ```bash
 $ ln -s /vagrant/sufi/www www
+```
+
+Link config to host xml, and create `res` folder with icons:
+
+```bash
+$ rm config.xml
+$ ln -s /vagrant/sufi/config.xml config.xml
+$ ln -s /vagrant/sufi/res res
 ```
 
 Build:
