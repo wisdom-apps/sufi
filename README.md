@@ -27,28 +27,33 @@ Startup pre-configured VirtualMachine.
 
 Needed to be installed:
 
-Vagrant: https://www.vagrantup.com/
-VirtualBox: https://www.virtualbox.org/
+* Vagrant: https://www.vagrantup.com/
+* VirtualBox: https://www.virtualbox.org/
 
 
-Then checkout:
+Then checkout `ionic-box`: https://github.com/driftyco/ionic-box
 
-https://github.com/driftyco/ionic-box
-
-And:
+And in `ionic-box` folder, start/configure VM machine:
 
 ```bash
 $ vagrant up
 $ vagrant ssh
 ```
 
+
 For windows needed to fix ppk file, by `puttygen` load `private_key` file, 
 and generate `private_key.ppk` file.
+
+Or, install: https://github.com/nickryand/vagrant-multi-putty and:
+
+```bash
+$ vagrant putty
+```
 
 Login in box by putty
 
 
-Clone this files (`sufi` folder) in `ionic-box` folder.
+Git clone this files (`sufi` folder) in `ionic-box` folder.
 
 
 Configure Cordova
