@@ -55,6 +55,15 @@ Configure Cordova
 
 Connect to ssh to box, then:
 
+`cordova create sufi org.wisdomapps.sufi WisdomSufi`
+               
+`rm config.xml`
+
+`ln -s /vagrant/sufi/config.xml config.xml`
+
+`ln -s /vagrant/sufi/res res`
+
+
 
 ```bash
 $ cd /home/vagrant
